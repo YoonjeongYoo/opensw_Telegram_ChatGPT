@@ -5,11 +5,11 @@ import time
 
 token = "6824706855:AAEGeRWBJ3hNAslgVLBhZN-FKNLoIPPL4sI"
 bot = telegram.Bot(token = token)
-public_chat_name = "@opensw_yoon_ChatGPT"
+public_chat_name = "@opensw_yoon_test"
 chat_id = "6917261069"
 
 client = OpenAI(
-    api_key='api token key'
+    api_key='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'
 )
 
 completion = client.chat.completions.create(
